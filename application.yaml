@@ -4,12 +4,6 @@ springdoc:
   swagger-ui:
     path: /documentation
 
-info:
-  app:
-    version: @project.version@
-    name: @project.name@
-    description: @project.description@
-
 eureka:
   client:
     service-url:
