@@ -1,0 +1,4 @@
+services:
+  hr-user:
+    path: /users
+    name: user
