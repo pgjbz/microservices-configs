@@ -2,3 +2,7 @@ services:
   hr-user:
     path: /users
     name: user
+
+jwt:
+  token:
+    key: MY-SECRET-KEY
