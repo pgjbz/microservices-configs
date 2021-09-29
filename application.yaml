@@ -22,4 +22,4 @@ management:
         
 jwt:
   token:
-    key: MY-SECRET-KEY
+    key: D28D12AFE1FC18B5AC5F25C2889F2
