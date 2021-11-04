@@ -5,6 +5,9 @@ springdoc:
     path: /documentation
 
 eureka:
+  client:
+    serviceUrl:
+      defaultZone: ${EUREKA_URL}
   instance:
     instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
     prefer-ip-address: true
