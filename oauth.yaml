@@ -2,3 +2,7 @@ services:
   hr-user:
     path: /users
     name: user
+app:
+  config:
+    app-name: myappname123
+    app-secret: myappsecret123
